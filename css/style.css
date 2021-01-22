@@ -1,0 +1,30 @@
+.calculadoraDeCambio {
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.calculadoraDeCambio input {
+    width: 80px;
+    text-align: right;
+    display: inline;
+}
+
+.calculadoraDeSalario {
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.calculadoraDeSalario input {
+    width: 80px;
+    text-align: right;
+    display: inline;
+}
