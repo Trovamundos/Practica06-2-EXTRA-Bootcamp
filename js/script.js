@@ -276,11 +276,13 @@ var calculateIrpf = () => { /*En este apartado no tengo claro si el irpf se plic
     }
 }
 
+//---------- Calculate net salary ----------
+
 var calculateNet = () => {
     netSalary = grossSalary - socialSecurity - irpf;
 }
 
-//---------- Algorithm ----------
+//---------- Show data in console ----------
 
 var showData = () => {
     console.log(`Salario bruto anual: ${grossSalary}`);
